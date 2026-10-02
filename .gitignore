@@ -1,0 +1,17 @@
+# Virtual Environment
+venv/
+.env
+env/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Streamlit Secrets & Credentials (Never commit real API keys to public GitHub!)
+.streamlit/secrets.toml
+
+# OS Files
+.DS_Store
+Thumbs.db
